@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Microphone</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="_sdcard_voice8k16bitmono_pcm">/sdcard/recording1210417292.pcm</string>
+    <string name="deprecation">deprecation</string>
+
+</resources>

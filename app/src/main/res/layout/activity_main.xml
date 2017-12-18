@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/maintheme"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#505050"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/theme"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/angel"
+        android:orientation="vertical">
+
+        <com.example.microphone.AudioOptions
+            android:id="@+id/record"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="65dp"
+            android:background="@drawable/buttonshape"
+            android:text="Record"
+            android:textColor="#000000"
+            android:textSize="15dp" />
+
+        <com.example.microphone.AudioOptions
+            android:id="@+id/play"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignLeft="@+id/record"
+            android:layout_below="@+id/record"
+            android:layout_marginTop="45dp"
+            android:background="@drawable/buttonshape"
+            android:text="Reverse Play"
+            android:textColor="#000000"
+            android:textSize="15dp" />
+
+        <com.example.microphone.AudioOptions
+            android:id="@+id/clear"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignLeft="@+id/play"
+            android:layout_below="@+id/play"
+            android:layout_marginTop="45dp"
+            android:background="@drawable/buttonshape"
+            android:text="Clear all files"
+            android:textColor="#000000"
+            android:textSize="15dp" />
+    </RelativeLayout>
+
+</RelativeLayout>
